@@ -19,9 +19,9 @@
         <h1 class="font-bold text-[25px] text-[gray]"><?php echo $banner['primary_title'] ?></h1>
 
     </header>
-    <div class=" banner_class">
+    <!-- <div class=" banner_class">
         <div class="banner_class_text text-[20px]"> <?php echo $banner['secondary_title'] ?></div>
         <div class="banner_class_image"><img src="<?php echo $banner['image'] ?>" alt="banner-image" /></div>
-    </div>
+    </div> -->
 
     <?php } ?>

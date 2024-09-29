@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body {
+body { 
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
@@ -15,6 +15,7 @@ body {
 
 .container {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 19px;
     padding-left: 100px;
@@ -23,13 +24,13 @@ body {
 }
 
 .card {
-    background-color: white;
+    width: 285px;
+    height: 383px;
+    background-color: #B8B8B8;
     border: 1px solid #ddd;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding-top: 9px;
-    padding-bottom: 9px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +49,8 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    padding-inline: 28px;
+    padding-inline: 32px;
+    margin-bottom: 25px;
 }
 
 .card_title{
@@ -117,7 +119,7 @@ header{
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
 
     /* Medium to Small */
     .container {
