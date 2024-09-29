@@ -6,7 +6,6 @@
 
 body { 
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,9 +13,14 @@ body {
 }
 
 .container {
-    display: grid;
+    /* display: grid;
+    place-items: center;
+    justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1242px;
+    /* grid-template-columns: repeat(4, 1fr); */
     justify-content: center;
-    grid-template-columns: repeat(4, 1fr);
     gap: 19px;
     padding-top: 20px;
 }
@@ -24,7 +28,7 @@ body {
 .card {
     width: 285px;
     height: 383px;
-    background-color: #B8B8B8;
+    background-color: #F7F7F7;
     border: 1px solid #ddd;
     border-radius: 8px;
     text-align: center;
@@ -33,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-block: 9px;
 }
 
 .card_image{
@@ -48,7 +53,6 @@ body {
     justify-content: space-between;
     font-size: 18px;
     padding-inline: 32px;
-    margin-bottom: 25px;
 }
 
 .card_title{

@@ -5,7 +5,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <title> <?php echo get_bloginfo("name"); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style/grid.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style/grid.css?v=2" />
     <?php wp_head(); ?>
 </head>
 
