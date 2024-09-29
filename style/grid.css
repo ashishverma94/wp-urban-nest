@@ -18,8 +18,6 @@ body {
     justify-content: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 19px;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-top: 20px;
 }
 
